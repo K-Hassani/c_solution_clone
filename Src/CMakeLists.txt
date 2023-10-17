@@ -4,7 +4,7 @@ project (
   "project1"
   VERSION 1.0
   DESCRIPTION "project1"
-  LANGUAGE C)
+  LANGUAGES C)
 
 add_executable (project1)
-target_sources (project1 PRIVATE Src/main.c)
+target_sources (project1 PRIVATE main.c)
